@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en" class="" xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://opengraphprotocol.org/schema/
+			fb: https://www.facebook.com/2008/fbml">
+
+<!-- The site's metadata tags, importing css styles,... -->
+{% include top.html %}
+
+<body id="home">
+
+    <!-- The page's content -->
+    {{ content }}
+
+    <!-- Include google analytics when running into production. -->
+    <!-- For this to run under Github set "safe:true" within _config.yml -->
+    {% if jekyll.environment == 'production' %} {% include analytics.html %} {% endif %}
+
+    <!-- Include the javascript librairies -->
+    {% include js-librairies.html %}
+
+
+</body>
+
+</html>

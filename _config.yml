@@ -1,0 +1,70 @@
+safe: true
+
+title: Lolita Godefroy - Psychologue Énergéticienne
+email: aubaine-studio@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  "Optez pour des technologies modernes et efficaces au service de votre commerce, à la façon d'Aubaine." 
+image_to_share: https://res.cloudinary.com/dytqwkbym/image/upload/v1493102768/aubaine-studio_lchhiw.png
+
+organization : Aubaine Studio
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: AubaineToulouse
+
+# Mitosis on social medias
+social_links:
+  facebook: https://www.facebook.com/aubainetoulousaine/
+  twitter: https://twitter.com/AubaineToulouse
+  instagram: https://www.instagram.com/aubaine_toulouse/
+
+
+
+# facebook information
+facebook_app_id: 1474444815913185
+
+# Build settings
+google_analytics_id: UA-83975665-2
+google_site_verification: WIKSY2Wl0zz8RzDPN8tdIOB9MMZ_1fcoUu3wJhzAAl0
+
+
+aubaine_studio_website: https://aubaine-studio.github.io/
+
+timezone: Europe/Paris
+
+markdown: kramdown
+#theme: minima
+
+highlighter: rouge
+
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: "" # for the file on the root
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "_docs"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "pages"
+    values:
+      layout: "default"

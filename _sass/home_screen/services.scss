@@ -1,0 +1,49 @@
+.section-services {
+    .services-hover {
+        &:hover {
+            cursor: pointer;
+        }
+        .services-img {
+            .website-icon {
+                font-size: 50px;
+            }
+            .globe-icon {
+                font-size: 45px;
+            }
+            .camera-icon {
+                font-size: 40px;
+            }
+            .envelope-icon {
+                font-size: 45px;
+            }
+            .bullhorn-icon {
+                font-size: 45px;
+            }
+        }
+    }
+    .modal {
+
+        .modal-header {
+            border-bottom: none; 
+
+            .modal-title {
+                color: #EC4940 ;
+                font-weight: 600;
+                text-align: center;
+            }
+        }
+        .modal-body {
+            color: rgba(0,0,0,.9);
+        }
+        .modal-footer {
+
+            border-top: none;
+            .btn-outline {
+                background: transparent;
+                border: 1px solid rgba(0, 0, 0, .8);
+                padding: 10px;
+                color: rgba(0, 0, 0, .8);
+            }
+        }
+    }
+}
