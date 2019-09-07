@@ -12,7 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AubaineToulouse
 
-# Mitosis on social medias
+# Lolita on social medias
 social_links:
   facebook: https://www.facebook.com/aubainetoulousaine/
   twitter: https://twitter.com/AubaineToulouse
