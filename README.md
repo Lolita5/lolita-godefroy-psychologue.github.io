@@ -1,4 +1,4 @@
-Public website for Aubaine Studio - generates https://lolita-godefroy-psychologue.github.io
+Public website for Lolita Godefroy - generates https://lolita-godefroy-psychologue.github.io
 =======
 
 The website is rendered using Github pages and built using [Jekyll](https://jekyllrb.com/).

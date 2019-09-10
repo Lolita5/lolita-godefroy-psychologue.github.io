@@ -1,0 +1,29 @@
+.section-pricing {
+    @media screen and (max-width: 768px) {
+        .section-all-subtitle {
+            padding: 59px 15px 50px 15px;
+        }
+        .pricing-information {
+            .divider-post-pricing:nth-child(3) {
+                height: 26px;
+            }
+        }
+    }
+    .pricing-information,
+    .pricing-form-container {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .pricing-form-container {
+        #pricing-form {
+            .success {
+                padding: 0 0 30px 0 !important;
+                font-weight: 800 !important;
+            }
+            .pricing-loader {
+                margin-top: 15px;
+                display: none;
+            }
+        }
+    }
+}

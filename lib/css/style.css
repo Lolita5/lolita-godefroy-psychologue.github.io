@@ -23,7 +23,7 @@
   page about
   page facts
     facts counter
-  page services
+  page general
   page works
     works hover
   page testimonials
@@ -1411,51 +1411,48 @@ h2.home-page-title.light a {
 }
 
 
-/* page services */
-.section-services {
+/* page general */
+.section-general {
   background: #fff;
-  padding: 100px 0 0 0;
+  padding: 30px 0 0 0;
   overflow: visible;
   z-index: 1;
 }
 
 @media only screen and (max-width: 880px) {
-  .section-services {
+  .section-general {
     padding: 70px 0 0 0;
   }
 }
 
 @media only screen and (max-width: 640px) {
-  .section-services {
+  .section-general {
     padding: 50px 0 0 0;
   }
 }
 
-.section-services img {
+.section-general img {
   max-width: 100%;
-  border: 20px solid #fff;
 }
 
 @media only screen and (max-width: 880px) {
-  .section-services img {
+  .section-general img {
     border: none;
   }
 }
 
-.services-move-down {
+.general-move-down {
   margin-top: 200px;
 }
 
 @media only screen and (max-width: 880px) {
-  .services-move-down {
+  .general-move-down {
     margin-top: 0;
   }
 }
 
-.services-img {
+.general-img {
   height: auto;
-  margin: -13px 0 20px 0;
-  font-size: 35px;
   text-align: center;
   color: #111;
   -webkit-transition: -webkit-transform 1s;
@@ -1466,12 +1463,12 @@ h2.home-page-title.light a {
 }
 
 @media only screen and (max-width: 880px) {
-  .services-img {
+  .general-img {
     margin: -8px 0 20px 0;
   }
 }
 
-.services-hover:hover .services-img {
+.general-hover:hover .general-img {
   -webkit-transform: rotateY(360deg);
   -moz-transform: rotateY(360deg);
   -ms-transform: rotateY(360deg);
@@ -1484,7 +1481,7 @@ h2.home-page-title.light a {
   transition: transform 1s;
 }
 
-.services-title {
+.general-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -1493,17 +1490,17 @@ h2.home-page-title.light a {
   color: #111;
 }
 
-.services-description {
+.general-description {
   text-align: center;
 }
 
 @media only screen and (max-width: 880px) {
-  .services-description {
+  .general-description {
     margin: 0 0 50px 0;
     text-align: left;
   }
 
-  .services-description-last {
+  .general-description-last {
     margin: 0;
   }
 }
@@ -1801,6 +1798,47 @@ h3 {
   padding: 0 0 0 10px;
 }
 
+/* page pricing */
+.section-pricing {
+  background: #fff;
+  padding: 100px 0 0 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 880px) {
+  .section-pricing {
+    padding: 70px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .section-pricing {
+    padding: 50px 0 0 0;
+  }
+}
+
+.section-pricing-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.3;
+  color: #696c7b;
+  padding: 50px 0 69px 0;
+  margin: 0 auto;
+  letter-spacing: normal;
+}
+
+@media only screen and (max-width: 640px) {
+  .section-pricing-subtitle {
+    padding: 59px 0 69px 0;
+  }
+}
+
+.section-pricing-subtitle-first {
+  color: #20202c;
+}
 
 /* page contact */
 .section-contact {
