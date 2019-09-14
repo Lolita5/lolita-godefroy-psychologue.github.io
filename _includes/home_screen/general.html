@@ -20,24 +20,26 @@
         <!-- row start -->
         <div class="row">
             <!-- col left start -->
-            <a href="presentation.html">
-                <div
-                    class="col-md-6 general-hover"
-                    title="Plus d'informations">
-                    <div class="general-img">
-                        <img alt="Qui suis-je?" src="assets/img/general/presentation.png" class="reiki-img">
-                    </div>
-                    <h3 class="general-title">
-                        Qui suis-je?
-                    </h3>
-                    <div class="general-description">
-                        <b></b> todo
-                    </div>
+            <div
+                class="col-md-6 general-hover"
+                data-toggle="modal"
+                data-target="#presentation"
+                title="Présentation">
+                <div class="general-img">
+                    <img alt="Qui suis-je?" src="assets/img/general/presentation.png" class="reiki-img">
                 </div>
-            </a>
+                <h3 class="general-title">
+                    Qui suis-je?
+                </h3>
+                <div class="general-description">
+                    <b></b> todo
+                </div>
+            </div>
             <!-- col left end -->
             <!-- col right start -->
-            <div class="col-md-6 general-hover general-move-down" title="Plus d'informations">
+            <div class="col-md-6 general-hover general-move-down" title="Réiki"
+                data-toggle="modal"
+                data-target="#audiance">
                 <div class="general-img">
                     <img alt="Un psy: pour qui? quand?" src="assets/img/general/psy.png" class="reiki-img">
                 </div>
@@ -51,7 +53,11 @@
             </div>
             <!-- col right end -->
             <!-- col left start -->
-            <div class="col-md-6 general-hover" title="Plus d'informations">
+            <div 
+                class="col-md-6 general-hover"
+                title="Plus d'informations"
+                data-toggle="modal"
+                data-target="#approche">
                 <div class="general-img">
                     <img alt="reiki" src="assets/img/general/approche.jpg" class="reiki-img">
                 </div>
@@ -64,7 +70,11 @@
             </div>
             <!-- col left end -->
             <!-- col right start -->
-            <div class="col-md-6 general-hover general-move-down" title="Plus d'informations">
+            <div 
+                class="col-md-6 general-hover general-move-down"
+                title="Plus d'informations"
+                data-toggle="modal"
+                data-target="#reiki">
                 <div class="general-img">
                     <img alt="reiki" src="assets/img/general/reiki.png" class="reiki-img">
                 </div>
@@ -95,5 +105,20 @@
         </div>
     </div> -->
     <!-- page images end -->
+
+    <!-- List of modals start -->
+    <!-- Presentation modal start -->
+    {% include home_screen/modals/presentation.modal.html %}
+    <!-- Presentation modal end -->
+    <!-- Audiance modal start -->
+    {% include home_screen/modals/audiance.modal.html %}
+    <!-- Audiance modal end -->
+    <!-- Approche modal start -->
+    {% include home_screen/modals/approche.modal.html %}
+    <!-- Approche modal end -->
+    <!-- Reiki modal start -->
+    {% include home_screen/modals/reiki.modal.html %}
+    <!-- Reiki modal end -->
+    <!-- List of modals end -->
 </div>
 <!-- general page end -->
