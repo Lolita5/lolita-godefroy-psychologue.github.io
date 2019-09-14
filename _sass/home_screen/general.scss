@@ -5,6 +5,10 @@
         padding-bottom: 15px; 
         text-align: center;
 
+        .quote-mark-l, .quote-mark-r {
+            color: black;
+        }
+
         .section-all-subtitle-first {
             font-size: 27px;
         }
@@ -30,7 +34,6 @@
             border-bottom: none; 
 
             .modal-title {
-                color: #EC4940 ;
                 font-weight: 600;
                 text-align: center;
             }
