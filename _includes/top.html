@@ -1,4 +1,7 @@
 <head>
+    <!-- Include google analytics when running into production. -->
+    <!-- For this to run under Github set "safe:true" within _config.yml -->
+    {% if jekyll.environment == 'production' %} {% include analytics.html %} {% endif %}
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
