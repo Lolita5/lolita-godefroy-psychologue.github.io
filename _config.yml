@@ -3,10 +3,12 @@ safe: true
 title: Lolita Godefroy - Psychologue Énergéticienne
 email: lolita.godefroy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  "todo" 
-image_to_share: https://res.cloudinary.com/dytqwkbym/image/upload/v1493102768/TODO_to_put_real_image.png
+  "Psychothérapie et Soins Reiki pour adultes, adolescents et enfant sur Toulouse." 
+image_to_share: https://res.cloudinary.com/dytqwkbym/image/upload/v1568560954/arbres_cf1pov.jpg
 
-organization : Lolita Godefroy
+organization: Lolita Godefroy
+
+author: Haythem OUEDERNI
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -14,14 +16,14 @@ twitter_username: todo
 
 # Lolita on social medias
 social_links:
-  facebook: todo
+  facebook: https://www.facebook.com/L%C3%89veil-de-l%C3%A2me-1549365928526980/
   twitter: todo
   instagram: https://www.instagram.com/lolita_therapeute/
 
 
 
 # facebook information
-facebook_app_id: 1474444815913185
+facebook_app_id: todo
 
 # Build settings
 google_analytics_id: UA-83975665-2

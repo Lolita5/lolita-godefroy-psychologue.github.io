@@ -15,7 +15,7 @@ $modal-header-content-height: $modal-header-height - (2 * $modal-header-padding)
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
-      background-image: url('/assets/img/general/approche.jpg');
+      background-image: url('/assets/img/presentation/lolita.jpeg');
     }
 
     .modal-header-overlay {
@@ -43,7 +43,23 @@ $modal-header-content-height: $modal-header-height - (2 * $modal-header-padding)
         line-height: $modal-header-height;
       }
     }
+  }
 
+  .modal-body {
+    b {
+      font-weight: bold;
+    }
+
+    p {
+      text-indent: 2em;
+      text-align: justify;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      ul {
+        position: relative;
+      }
+    }
   }
 
   .about-section-images-carousel {
@@ -57,5 +73,11 @@ $modal-header-content-height: $modal-header-height - (2 * $modal-header-padding)
     .about-section-images-carousel {
       height: 400px;
     }
+  }
+
+  .li-list-elt {
+    list-style-type: square;
+    margin-left: 30px;
+    line-height: 30px;
   }
 }

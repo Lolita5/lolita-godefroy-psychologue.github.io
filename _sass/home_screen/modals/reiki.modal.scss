@@ -1,0 +1,14 @@
+.reiki-modal {
+  p.reiki-signification {
+    text-indent: 0;
+    padding-bottom: 5px;
+
+    &__ki {
+      padding-bottom: 15px;
+    }
+  }
+
+  p.reiki-capabilities {
+    padding-bottom: 5px;
+  }
+}

@@ -1798,14 +1798,14 @@ h3 {
 /* page pricing */
 .section-pricing {
   background: #fff;
-  padding: 100px 0 0 0;
+  padding: 50px 0 0 0;
   overflow: hidden;
   z-index: 1;
 }
 
 @media only screen and (max-width: 880px) {
   .section-pricing {
-    padding: 70px 0 0 0;
+    padding: 50px 0 0 0;
   }
 }
 
@@ -1840,14 +1840,14 @@ h3 {
 /* page contact */
 .section-contact {
   background: #fff;
-  padding: 100px 0 0 0;
+  padding: 50px 0 0 0;
   overflow: hidden;
   z-index: 1;
 }
 
 @media only screen and (max-width: 880px) {
   .section-contact {
-    padding: 70px 0 0 0;
+    padding: 50px 0 0 0;
   }
 }
 
