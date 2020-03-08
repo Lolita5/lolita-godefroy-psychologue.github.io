@@ -13,6 +13,10 @@
     <!-- Include the javascript librairies -->
     {% include js-librairies.html %}
 
+     <!-- Include google analytics when running into production. -->
+    <!-- For this to run under Github set "safe:true" within _config.yml -->
+    {% if jekyll.environment == 'production' %} {% include analytics.html %} {% endif %}
+
 
 </body>
 
