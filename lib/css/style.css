@@ -1451,7 +1451,7 @@ h2.home-page-title.light a {
   }
 }
 
-.general-img {
+.general-img-container {
   height: auto;
   text-align: center;
   color: #111;
@@ -1463,12 +1463,12 @@ h2.home-page-title.light a {
 }
 
 @media only screen and (max-width: 880px) {
-  .general-img {
+  .general-img-container {
     margin: -8px 0 20px 0;
   }
 }
 
-.general-hover:hover .general-img {
+.general-hover:hover .general-img-container {
   -webkit-transform: rotateY(360deg);
   -moz-transform: rotateY(360deg);
   -ms-transform: rotateY(360deg);

@@ -27,8 +27,8 @@
                 data-toggle="modal"
                 data-target="#presentation"
                 title="Présentation">
-                <div class="general-img">
-                    <img alt="Qui suis-je?" src="assets/img/general/presentation.png" class="reiki-img">
+                <div class="general-img-container">
+                    <img alt="Qui suis-je?" src="assets/img/general/presentation.png">
                 </div>
                 <h3 class="general-title">
                     Qui suis-je?
@@ -40,11 +40,12 @@
             </div>
             <!-- col left end -->
             <!-- col right start -->
-            <div class="col-md-6 general-hover general-move-down" title="Reiki"
+            <div class="col-md-6 general-hover general-move-down"
+                title="Un psy: pour qui? quand?"
                 data-toggle="modal"
                 data-target="#audiance">
-                <div class="general-img">
-                    <img alt="Un psy: pour qui? quand?" src="assets/img/general/psy.png" class="reiki-img">
+                <div class="general-img-container">
+                    <img alt="Un psy: pour qui? quand?" src="assets/img/general/psy.png">
                 </div>
                 <h3 class="general-title">
                     Un psy: pour qui? quand?
@@ -58,11 +59,11 @@
             <!-- col left start -->
             <div 
                 class="col-md-6 general-hover"
-                title="Plus d'informations"
+                title="Approche"
                 data-toggle="modal"
                 data-target="#approche">
-                <div class="general-img">
-                    <img alt="reiki" src="assets/img/general/approche.jpg" class="reiki-img">
+                <div class="general-img-container">
+                    <img alt="reiki" src="assets/img/general/approche.jpg">
                 </div>
                 <h3 class="general-title">
                     Une approche douce et globale
@@ -76,11 +77,11 @@
             <!-- col right start -->
             <div 
                 class="col-md-6 general-hover general-move-down"
-                title="Plus d'informations"
+                title="Reiki"
                 data-toggle="modal"
                 data-target="#reiki">
-                <div class="general-img">
-                    <img alt="reiki" src="assets/img/general/reiki.png" class="reiki-img">
+                <div class="general-img-container">
+                    <img alt="reiki" src="assets/img/general/reiki.png">
                 </div>
                 <h3 class="general-title">
                     le Reiki
@@ -90,6 +91,23 @@
                 </div>
             </div>
             <!-- col right end -->
+            <!-- col left start -->
+            <div
+                class="col-md-6 general-hover"
+                title="EFT"
+                data-toggle="modal"
+                data-target="#eft">
+                <div class="general-img-container">
+                    <img alt="reiki" src="assets/img/general/eft.png">
+                </div>
+                <h3 class="general-title">
+                    L'EFT
+                </h3>
+                <div class="general-description">
+                    Technique de librération émotionnelle: Cette pratique psycho énergétique vise à rééquilibrer le système énergétique...
+                </div>
+            </div>
+         <!-- col left end -->
         </div>
         <!-- row end -->
     </div>
@@ -108,6 +126,9 @@
     <!-- Reiki modal start -->
     {% include home_screen/modals/reiki.modal.html %}
     <!-- Reiki modal end -->
+    <!-- Eft modal start -->
+    {% include home_screen/modals/eft.modal.html %}
+    <!-- Eft modal end -->
     <!-- List of modals end -->
 </div>
 <!-- general page end -->
