@@ -5,8 +5,10 @@
             font-family: 'amarilloregular_script', Arial, Helvetica, sans-serif;
             text-transform: none;
             font-size: 120px;
+        }
 
-            @media screen and (max-width: 550px) {
+        @media screen and (max-width: 550px) {
+            .home-page-title {
                 font-size: 80px;
             }
         }
