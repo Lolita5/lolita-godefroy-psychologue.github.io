@@ -1,4 +1,13 @@
 .home-page {
+
+    .home-page-title-container {
+        .home-page-title {
+            font-family: 'amarilloregular_script', Arial, Helvetica, sans-serif;
+            text-transform: none;
+            font-size: 120px;
+        }
+    }
+
     .value-proposition-container {
         margin-top: 30px;
         @media screen and (max-width: 350px) {
@@ -16,6 +25,7 @@
             line-height: 40px;
             font-weight: 700;
         }
+
         .home-page-subtitle-carousel {
             margin-top: 15px;
             .home-page-title {

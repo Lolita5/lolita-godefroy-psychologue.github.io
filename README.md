@@ -17,3 +17,5 @@ To run this locally :
     * It you want the livereload + test it on a device connected to the same network : `bundle exec jekyll serve --host=your_local_ip_address --livereload`.
 
 * You will access the site at http://localhost:4000 or http://your_local_ip_address:4000 depending on the chosen option to run the app.
+
+* Tutorial used to add custom font: https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website
