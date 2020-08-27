@@ -1,4 +1,4 @@
-Public website for Lolita Godefroy - generates https://lolita-godefroy-psychologue.github.io
+Public website for Lolita Godefroy - generates https://www.godefroy-psychologue-toulouse.fr/
 =======
 
 Psychologue clinicienne et énergéticienne à Toulouse - France
