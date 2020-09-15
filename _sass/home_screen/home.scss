@@ -73,6 +73,20 @@
             &:hover {
                 background: #bd081c;
             }
+
+            .make-appointment-link {
+                display: flex;
+
+                .make-appointment-text {
+                    margin: auto;
+                }
+
+                .doctolib-img {
+                    height:20px;
+                    width: auto;
+                    margin: auto;
+                }
+            }
         }
         .learn-more-container {
             margin-right: auto;
