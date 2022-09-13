@@ -85,4 +85,12 @@ $images-carousel-height: 400px;
     margin-left: 30px;
     line-height: 30px;
   }
+
+  .general-information-link {
+    color: rgb(0, 133, 242) !important;
+    text-decoration: underline;
+    &:hover {
+      font-weight: bold !important;
+    }
+  }
 }
