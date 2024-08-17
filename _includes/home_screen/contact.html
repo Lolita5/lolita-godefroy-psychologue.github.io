@@ -34,21 +34,19 @@
                     <!-- col right end -->
                     <!-- col right start -->
                     <div class="col-md-4 col-sm-6 contact-elt">
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
                         <!-- contact details start -->
-                        <!-- <span class="footer-contact-block-label">Adresse:</span>
+                        <span class="footer-contact-block-label">Adresse:</span>
                         <a class="contact-elt-text" 
-                            href="https://www.google.fr/maps/place/43°36'09.9%22N+1°25'20.7%22E/@43.6004665,1.4238497,17.56z/data=!4m6!3m5!1s0x0:0x0!7e2!8m2!3d43.6027464!4d1.422429"
+                            href="https://www.google.com/maps/place/99+Av.+Jacques+Douzans,+31600+Muret/@43.4651752,1.325764,19z/data=!3m1!4b1!4m6!3m5!1s0x12aec9cd155d0c2f:0xf6fee5fd363e4278!8m2!3d43.4651742!4d1.3264091!16s%2Fg%2F11cncqtz94?entry=ttu"
                             target="_blank">
-                            6 bis rue Dolive 31300 - Toulouse
+                            99 Avenue Jacques Douzans, 31600 Muret
                             <br/>
-                            Environ 10mn à pieds du métro St Cyprien
-                            <span class="footer-contact-block-link">Afficher la carte <i class="fa fa-map-marker"></i></span>
-                        </a> -->
+                            Au premier étage sans ascenseur
+                            <br/>
+                            Environ 5mn à pieds de la gare de Muret
+                            <br/>
+                            <span class="footer-contact-block-link">Afficher sur la carte <i class="fa fa-map-marker"></i></span>
+                        </a>
                         <!-- contact details end -->
                     </div>
                     <!-- col right end -->
@@ -57,58 +55,8 @@
             <!-- row end -->
             <!-- row start -->
             <div class="row contact-form-container">
-                <!-- Tutorial to make contact form : https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server -->
                 <!-- contact form start -->
-                <div id="contact-form" class="hidden-elt">
-                    <form id="form" method="post" name="send" action="https://script.google.com/macros/s/AKfycbz_rYiSMsAzjbNjxYA6ADhjjP6grOu1g6ZlQHx3cvAN3xOft_xFAS0tffvWmTjx3uj44w/exec">
-                        <div class="col-md-4">
-                            <input class="requiredField name" id="name" name="name" placeholder="Nom" type="text">
-                        </div>
-                        <div class="col-md-4">
-                            <input class="requiredField email" id="email" name="email" placeholder="Email" type="text">
-                        </div>
-                        <div class="col-md-4">
-                            <input class="requiredField phone" id="phone" name="phone" placeholder="Téléphone" type="text">
-                        </div>
-
-                        <div class="make-space">
-                            <input class="requiredField subject" id="subject" name="subject" placeholder="Sujet (prise de rdv, demande de renseignement, ...)" type="text">
-                        </div>
-                        <div class="make-space">
-                            <textarea class="requiredField message" id="message" name="message" placeholder="Votre message"></textarea>
-                        </div>
-
-                        <!-- The loader to be shown while sending the message -->
-                        <div
-                            class="contact-loader loader">
-                            <span></span>
-                        </div>
-                        
-                        <div>
-                            <!-- Hidden button to submit the form -->
-                            <button
-                                class="hidden-elt"
-                                id="contact-submit-button"
-                                type="submit">
-                            </button>
-                        </div>
-
-                    </form>
-
-                    <!-- Displayed button to validate the captcha before submittin the form -->
-                    <button 
-                        data-sitekey="6LeQ58UZAAAAABfkIeJfE4CdIJDiuRSF3Vs0tm-0" 
-                        data-callback='onSubmit' 
-                        data-action='submit'
-                        class="submit-button contact-submit-button g-recaptcha" 
-                        id="send-contact-button"
-                        type="button">
-                        Envoyer
-                    </button>
-
-                </div>
-                <!-- contact form end -->
-
+                <!-- include home_screen/contact-form.html -->
                 <!-- Home footer -->
                 {% include home_screen/home-footer.html %}
 

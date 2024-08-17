@@ -1,7 +1,7 @@
 Public website for Lolita Godefroy - generates https://www.godefroy-psychologue-toulouse.fr/
 =======
 
-Psychologue clinicienne et énergéticienne à Toulouse - France
+Psychologue clinicienne et énergéticienne à  Muret - Toulouse - France
 
 The website is rendered using Github pages and built using [Jekyll](https://jekyllrb.com/).
 
