@@ -1,4 +1,4 @@
-Public website for Lolita Godefroy - generates https://www.godefroy-psychologue-toulouse.fr/
+Public website for Lolita Godefroy - generates https://www.godefroy-psychologue-muret.fr
 =======
 
 Psychologue clinicienne et énergéticienne à  Muret - Toulouse - France
