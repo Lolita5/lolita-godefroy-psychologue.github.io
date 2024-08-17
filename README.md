@@ -19,3 +19,5 @@ To run this locally :
 * You will access the site at http://localhost:4000 or http://your_local_ip_address:4000 depending on the chosen option to run the app.
 
 * Tutorial used to add custom font: https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website
+
+* Quand on change de nom de domaine, il faut aller sur OVH, la section DNS zone, de l'url à associer au site est ajouter un CNAME avec comme domaine "www.url-complete.fr" (exemple godefroy-psychologue-muret.fr) et comme Target le lien de la page github ici "lolita-godefroy-psychologue.io". Egalement faire les redirection depuis le même onglet (ajouter un TXT un avec www et l'autre sans avec comme valeur de la target "4|https://lesite-cible" => "4|https://www.godefroy-psychologue-muret.fr")
