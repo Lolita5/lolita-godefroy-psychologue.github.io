@@ -9,6 +9,11 @@
             }
         }
     }
+
+    .pricing-important-message {
+        color: #f44336;
+    }
+    
     .pricing-information,
     .pricing-form-container,
     .pricing-information .row {
@@ -39,7 +44,7 @@
         -webkit-transition: border .2s ease-in-out;
         -o-transition: border .2s ease-in-out;
         transition: border .2s ease-in-out;
-        height: 230px;
+        height: 200px;
 
         .caption {
             padding: 9px;
